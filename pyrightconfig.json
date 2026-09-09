@@ -1,0 +1,5 @@
+{
+  "include": ["backend", "pipeline"],
+  "extraPaths": ["./pipeline"],
+  "reportMissingImports": "warning"
+}

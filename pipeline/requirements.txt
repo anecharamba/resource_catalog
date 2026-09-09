@@ -1,0 +1,8 @@
+pdfplumber
+PyMuPDF
+pytesseract
+opencv-python-headless
+pillow
+python-docx
+mammoth
+requests

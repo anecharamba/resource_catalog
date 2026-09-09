@@ -1,0 +1,121 @@
+/* Academic Clarity — light (from the approved mockups) + a dark variant built
+   from the same Material-style token set (using its own fixed-dim tokens for
+   dark-mode primaries, not a separate theme). */
+
+:root {
+  --surface: #f7f9fb;
+  --surface-dim: #d8dadc;
+  --surface-bright: #f7f9fb;
+  --surface-container-lowest: #ffffff;
+  --surface-container-low: #f2f4f6;
+  --surface-container: #eceef0;
+  --surface-container-high: #e6e8ea;
+  --surface-container-highest: #e0e3e5;
+  --on-surface: #191c1e;
+  --on-surface-variant: #434655;
+  --outline: #747687;
+  --outline-variant: #c4c5d8;
+
+  --primary: #0447dc;
+  --on-primary: #ffffff;
+  --primary-container: #3563f5;
+  --on-primary-container: #f6f4ff;
+
+  --secondary: #525e7d;
+  --on-secondary: #ffffff;
+  --secondary-container: #cdd9fe;
+  --on-secondary-container: #2f3a58;
+
+  --tertiary: #6732d0;
+  --on-tertiary: #ffffff;
+  --tertiary-container: #8050ea;
+
+  --error: #ba1a1a;
+  --on-error: #ffffff;
+  --error-container: #ffdad6;
+  --on-error-container: #93000a;
+
+  --success: #2f6e3e;
+  --success-container: #d9f2dc;
+  --on-success-container: #12401f;
+
+  --background: #f7f9fb;
+  --on-background: #191c1e;
+
+  --font-sans: "Inter", "Segoe UI", sans-serif;
+
+  --radius-sm: 0.25rem;
+  --radius: 0.5rem;
+  --radius-md: 0.75rem;
+  --radius-lg: 1rem;
+  --radius-full: 9999px;
+
+  --container-max: 1280px;
+
+  --shadow-sm: 0 1px 2px rgba(25, 28, 30, 0.06);
+  --shadow: 0 2px 8px rgba(25, 28, 30, 0.08);
+}
+
+[data-theme="dark"] {
+  --surface: #121317;
+  --surface-dim: #0c0d10;
+  --surface-bright: #26282d;
+  --surface-container-lowest: #0c0d10;
+  --surface-container-low: #17181c;
+  --surface-container: #1c1e22;
+  --surface-container-high: #26282d;
+  --surface-container-highest: #303237;
+  --on-surface: #e2e2e6;
+  --on-surface-variant: #c4c5d8;
+  --outline: #8e8fa0;
+  --outline-variant: #45464f;
+
+  --primary: #b7c4ff;
+  --on-primary: #001552;
+  --primary-container: #3f5ee0;
+  --on-primary-container: #dce1ff;
+
+  --secondary: #b9c6ea;
+  --on-secondary: #0d1b36;
+  --secondary-container: #3a4664;
+  --on-secondary-container: #d9e2ff;
+
+  --tertiary: #d0bcff;
+  --on-tertiary: #38008a;
+  --tertiary-container: #5516be;
+
+  --error: #ffb4ab;
+  --on-error: #690005;
+  --error-container: #93000a;
+  --on-error-container: #ffdad6;
+
+  --success: #9bd6a6;
+  --success-container: #1e4b2a;
+  --on-success-container: #c3ecc8;
+
+  --background: #101114;
+  --on-background: #e2e2e6;
+
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.3);
+  --shadow: 0 2px 10px rgba(0, 0, 0, 0.4);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--background);
+  color: var(--on-background);
+  font-family: var(--font-sans);
+  transition: background-color 150ms ease, color 150ms ease;
+}
+
+a {
+  color: inherit;
+}
+
+button {
+  font-family: inherit;
+}
