@@ -178,3 +178,5 @@ Public user accounts/uploads (as opposed to admin-side import), near-duplicate d
 Q&A/community, points/reputation, AI answer-verification — all deliberately deferred per the
 original phase plan.
 
+#   r e s o u r c e - c a t a l o g - f i x e d  
+ 
